@@ -63,7 +63,7 @@ if (tree == NULL)
 	return (0);
 conf = binary_tree_height(tree);
 for (i = 1; i < conf; i++)
-	conf2 *= 2;
+	conf2 = conf2 * 2;
 if (binary_tree_leaves(tree) == conf2)
 	return (1);
 return (0);
